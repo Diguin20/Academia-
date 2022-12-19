@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+}
+body{
+    background: linear-gradient(#000,#fffb00);
+}
+/* Estilzação do Menu */
+#logo{
+    float: left;
+}
+#banner{
+    background-color: #000;
+    text-align: center;
+}
+#menu ul{
+    
+    list-style: none;
+    padding: 0px;
+    background-color: #000;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: background .4s;
+}
+
+#menu ul li a:hover{
+    background-color: #fffb00;
+    color: #000;
+}
+/* fim da estilização do Menu */
+
+
+#descricao{
+    text-align: center;
+}
+
+.area .container h1,h2{
+    color:#fff;
+}
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 1.5em;
+}
+textarea{
+    width: 100%;
+    margin-top: 2em;
+}
+.container{
+    background-color: #081826;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #8c2703;
+    border: none;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+/* Estilização do rodape*/
+#rodape{
+    padding: 20px;
+    background-color:green;
+    color:#fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+/*fim da estilização do rodape
